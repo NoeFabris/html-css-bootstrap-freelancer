@@ -45,17 +45,60 @@ footer{
 .img-container{
     max-width: 200px;
 }
+.star{
+    max-width: 35px;
+}
+.text-white{
+    color: white;
+}
+.text-green{
+    color: #1abc9c;
+}
 .linea{
     height: 1px;
     border: 1px solid white;
-    width: 40%;
+    width: 20%;
+    /* display: inline-block; */
+}
+.prova{
+    vertical-align: middle;
     display: inline-block;
 }
-.my-jumbotron{
-    background-color: #1abc9c;
-    margin-bottom: 0;
-    color: white;
+.border-black{
+    border: 1px solid black;
 }
-.my-jumbotron h1{
-    font-size: 36px;
+.row-small{
+    max-width: 992px;
+}
+.form-control{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+.bot{
+    border: 0;
+}
+.btn-download{
+    /* margin: 10px 0; */
+    border: 1px solid white;
+}
+section{
+    padding: 35px 0;
+}
+.btn-circle{
+    border-radius: 50%;
+    background-color: #3a546d;
+    margin: 0 5px;
+}
+.social{
+    margin: auto;
+}
+.btn-hamb{
+    background-color: #2c3e50;
+    border: 1px solid white;
+}
+.btn-hamb .icon-bar{
+    background-color: white;
 }
