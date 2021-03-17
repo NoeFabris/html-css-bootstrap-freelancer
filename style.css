@@ -1,9 +1,9 @@
 .border{
     border: 1px solid black;
 }
-h1, p, h3{
+/* h1, p, h3{
     text-align: center;
-}
+} */
 .h-50{
     height: 50px;
 }
@@ -18,4 +18,27 @@ h1, p, h3{
 }
 .h-400{
     height: 400px;
+}
+.box{
+    margin:15px 0;
+    background-color: red;
+}
+.b-blue{
+    background-color: #2c3e50;
+}
+.b-green{
+    background-color: #1abc9c;
+}
+footer{
+    background-color: #3a546d;
+}
+.nav-personal{
+    background-color: #2c3e50;
+    margin-bottom: 0;
+}
+.nav-personal a{
+    color: white;
+}
+.nav-personal .nav>li>a:hover{
+    background-color: #3a546d;
 }

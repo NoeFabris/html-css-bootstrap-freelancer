@@ -4,93 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Bootstrap</title>
 </head>
 <body>
-    <header class="container border">
-        <nav class="row">
-            <div class="border h-50 col-lg-3 col-md-5">
-                Logo
+    <header class="b-blue">
+        <nav class="navbar nav-personal">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">START BOOTSTAMP</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
             </div>
-            <div class="border h-50 col-lg-4 col-md-5 col-lg-offset-5 col-md-offset-2">
-                Nav
-            </div>
-        </nav>
+        </nav>     
     </header>
-    <main class="container border">
+    <main>
     <!-- Sezione jumbotron -->
-        <section class="row">
-            <div class="border h-200 col-lg-6 col-md-8 col-lg-offset-3 col-md-offset-2">
-                Start Bootstramp
+        <section class="b-green">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-md-offset-3 col-sm-offset-3">
+                        <div>
+                            <img  class="img-responsive" src="img/avatar.svg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     <!-- Sezione Portolio/IMG -->
-        <section class="row">
-            <div class="border col-lg-12 col-md-12">
-                <h1>Portfolio</h1>
-            </div>
-            <div class="border h-100 col-lg-4 col-md-6">
-                IMG
-            </div>
-            <div class="border h-100 col-lg-4 col-md-6">
-                IMG
-            </div>
-            <div class="border h-100 col-lg-4 col-md-6">
-                IMG
-            </div>
-            <div class="border h-100 col-lg-4 col-md-6">
-                IMG
-            </div>
-            <div class="border h-100 col-lg-4 col-md-6">
-                IMG
-            </div>
-            <div class="border h-100 col-lg-4 col-md-6">
-                IMG
+        <section>
+            <div class="container">
+                <div class="row">
+                    <h1>Portfolio</h1>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="box">
+                            IMG
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="box">
+                            IMG
+                        </div>
+                    </div>
+                    <div class="h-100 col-md-4 col-sm-6">
+                        <div class="box">
+                            IMG
+                        </div>
+                    </div>
+                    <div class="h-100 col-md-4 col-sm-6">
+                        <div class="box">
+                            IMG
+                        </div>
+                    </div>
+                    <div class="h-100 col-md-4 col-sm-6">
+                        <div class="box">
+                            IMG
+                        </div>
+                    </div>
+                    <div class="h-100 col-md-4 col-sm-6">
+                        <div class="box">
+                            IMG
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
      <!-- Sezione About -->
-        <section class="row">
-            <div class="border col-lg-12 col-md-12">
-                <h1>ABOUT</h1>
-            </div>
-            <div class="border h-100 col-lg-6 col-md-12" >
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum suscipit esse atque voluptatum exercitationem fugit nulla? Neque mollitia delectus, vel accusantium error tempore eum earum. Quasi molestiae natus cum aliquid!
-            </div>
-            <div class="border h-100 col-lg-6 col-md-12">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum suscipit esse atque voluptatum exercitationem fugit nulla? Neque mollitia delectus, vel accusantium error tempore eum earum. Quasi molestiae natus cum aliquid!
-            </div>
-            <div class="border col-lg-12 col-md-12">
-                <P>BUTTON</P>
+        <section class="b-green">
+            <div class="container">
+                <div class="row">
+                    <div class="border col-md-12 col-sm-12">
+                        <h1>ABOUT</h1>
+                    </div>
+                    <div class="border h-100 col-md-6 col-sm-12" >
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum suscipit esse atque voluptatum exercitationem fugit nulla? Neque mollitia delectus, vel accusantium error tempore eum earum. Quasi molestiae natus cum aliquid!
+                    </div>
+                    <div class="border h-100 col-md-6 col-sm-12">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum suscipit esse atque voluptatum exercitationem fugit nulla? Neque mollitia delectus, vel accusantium error tempore eum earum. Quasi molestiae natus cum aliquid!
+                    </div>
+                    <div class="border col-md-12 col-sm-12">
+                        <P>BUTTON</P>
+                    </div>
+                </div>
             </div>
         </section>
      <!-- Sezione Contattami -->
-        <section class="row">
-            <div class="border col-lg-12 col-md-12">
-                <h1>Contact Me</h1>
-            </div>
-            <div class="border h-300 col-lg-12 col-md-12">
-                Form
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="border col-md-12 col-sm-12">
+                        <h1>Contact Me</h1>
+                    </div>
+                    <div class="border h-300 col-md-12 col-sm-12">
+                        Form
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    <footer class="container border">
+    <footer>
     <!-- Footer PT.1 -->
-        <section class="row">
-            <div class="border h-100 col-lg-4 col-md-6">
-                <h1>LOCATION</h1>
-            </div>
-            <div class="border h-100 col-lg-4 col-md-6">
-                <h1>WEB</h1>
-            </div>
-            <div class="border h-100 col-lg-4 col-md-6 col-lg-offset-0 col-md-offset-3">
-                <h1>ABOUT</h1>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="border h-100 col-md-4 col-sm-6">
+                        <h1>LOCATION</h1>
+                    </div>
+                    <div class="border h-100 col-md-4 col-sm-6">
+                        <h1>WEB</h1>
+                    </div>
+                    <div class="border h-100 col-md-4 col-sm-6 col-md-offset-0 col-sm-offset-3">
+                        <h1>ABOUT</h1>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="row">
-            <div class="border h-50 col-lg-12 col-md-12">
-                <h3>Copiright</h3>
+        <section class="b-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="border h-50 col-md-12 col-sm-12">
+                        <h3>Copiright</h3>
+                    </div>
+                </div>
             </div>
         </section>
     </footer>
