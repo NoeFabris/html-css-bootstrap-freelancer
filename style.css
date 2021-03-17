@@ -42,3 +42,20 @@ footer{
 .nav-personal .nav>li>a:hover{
     background-color: #3a546d;
 }
+.img-container{
+    max-width: 200px;
+}
+.linea{
+    height: 1px;
+    border: 1px solid white;
+    width: 40%;
+    display: inline-block;
+}
+.my-jumbotron{
+    background-color: #1abc9c;
+    margin-bottom: 0;
+    color: white;
+}
+.my-jumbotron h1{
+    font-size: 36px;
+}
