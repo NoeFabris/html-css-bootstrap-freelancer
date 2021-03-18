@@ -46,7 +46,14 @@ footer{
     max-width: 200px;
 }
 .star{
+    display: inline-block;
     max-width: 35px;
+    margin: 0 15px;
+    vertical-align: middle;
+}
+str-container{
+    /* text-align: center; */
+    max-width: 200px;
 }
 .text-white{
     color: white;
@@ -55,10 +62,10 @@ footer{
     color: #1abc9c;
 }
 .linea{
-    height: 1px;
-    border: 1px solid white;
-    width: 20%;
-    /* display: inline-block; */
+    border-top: 4px solid white;
+    width: calc(30% - 50px - 30px);
+    display: inline-block;
+    border-radius: 2px;
 }
 .prova{
     vertical-align: middle;
@@ -84,8 +91,11 @@ footer{
     /* margin: 10px 0; */
     border: 1px solid white;
 }
-section{
-    padding: 35px 0;
+main section{
+    padding: 70px 0;
+}
+footer section{
+    padding: 40px 0;
 }
 .btn-circle{
     border-radius: 50%;
@@ -101,4 +111,7 @@ section{
 }
 .btn-hamb .icon-bar{
     background-color: white;
+}
+.mt-0{
+    margin-top: 0;
 }
